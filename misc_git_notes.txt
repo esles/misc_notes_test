@@ -1,0 +1,21 @@
+Notes towards learning git etc.
+First go, commands:
+
+git status
+fatal: not a git repository (or any of the parent directories): .git
+
+git init
+Initialized empty Git repository in /Users/lesteres/Documents/CODE/misc_notes/.git/
+
+git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	misc_git_notes.txt
+	misc_notes_tw_comparison
+
+nothing added to commit but untracked files present (use "git add" to track)
