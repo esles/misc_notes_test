@@ -1,0 +1,43 @@
+To rewrite/merge the two programs
+
+
+Use a header programme written in Python, for setting the initial Conditions
+running the relevant programmes and recording the results
+
+First maybe organise all the required subroutines already written by me and KB
+
+Assess where there is already overlap
+
+Re-write what needs to be rewritten, especially if it helps to make sense of it
+
+split what you can of the main programs into further subroutines (evolution,
+Runge-Kutta maybe?)
+
+Organise the printing and saving aspects of subroutines,
+but put what you can in the python script
+
+
+Option A
+write a new header program for the fortran scripts which imports the initial
+conditions from the python script and runs all the subroutines
+
+Option B
+Run your and KB's programs each in the python header and compare the saved results
+
+I reckon the second.
+
+
+Currently your program saves alot more data (density at different times) (maybe
+too much?!) i guess for now its fine for a first comparison but it could be cool
+to get KBs save the same amount later for more in-depth analysis
+
+
+First comparison should be of three present day density profiles, one for each
+model: linear, simplified silent, Einstein-de-Sitter
+
+Not sure what the initial time/red shift should be
+
+Nor the best time and space steps to use (KB deals with world-lines anyway?)
+
+
+need a set_parameters with input from the python script

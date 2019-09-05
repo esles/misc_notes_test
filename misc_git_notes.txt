@@ -19,3 +19,5 @@ Untracked files:
 	misc_notes_tw_comparison
 
 nothing added to commit but untracked files present (use "git add" to track)
+
+git add misc_git_notes.txt
