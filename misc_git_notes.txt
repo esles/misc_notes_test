@@ -169,3 +169,18 @@ git push origin master
     remote: Resolving deltas: 100% (4/4), done.
     To https://github.com/esles/misc_notes_test.git
      * [new branch]      master -> master
+
+
+git commit -a -m "post_upload"
+    [master d1e7467] post_upload
+     1 file changed, 20 insertions(+)
+
+git status
+    On branch master
+    nothing to commit, working tree clean
+
+git push origin
+    fatal: The current branch master has no upstream branch.
+    To push the current branch and set the remote as upstream, use
+
+        git push --set-upstream origin master
