@@ -133,3 +133,19 @@ index 1eea564..faf561e 100644
 +Changes not staged for commit:
 +  (use "git add <file>..." to update what will be committed)
 :
+
+
+
+
+KEY POINTS:
+    git status shows the status of a repository.
+
+    git add puts files in the staging area.
+
+    git commit saves the staged content as a new commit in the local repository.
+
+    git diff displays differences between commits.
+
+    git checkout recovers old versions of files.
+
+    The .gitignore file tells Git what files to ignore.
