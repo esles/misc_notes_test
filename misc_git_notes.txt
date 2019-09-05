@@ -47,5 +47,89 @@ git commit -m "Test run: start keeping track of the file"
  1 file changed, 21 insertions(+)
  create mode 100644 misc_git_notes.txt
 
- git add misc_notes_tw_comparison
- git add misc_git_notes
+git add misc_notes_tw_comparison
+git add misc_git_notes
+
+git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   misc_git_notes.txt
+	new file:   misc_notes_tw_comparison
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   misc_git_notes.txt
+
+git commit
+[master cdaa6e7] not sure whats happening
+ 2 files changed, 45 insertions(+)
+ create mode 100644 misc_notes_tw_comparison
+
+git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   misc_git_notes.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+git commit -a -m "message"
+[master 9993e13] message
+ 1 file changed, 28 insertions(+)
+
+git status
+On branch master
+nothing to commit, working tree clean
+
+git log
+
+commit 9993e13c70fb22c12b80ef64f77eb0945132fa32 (HEAD -> master)
+Author: sue <earl.sullivanlester@utas.edu.au>
+Date:   Thu Sep 5 13:31:40 2019 +1000
+
+    message
+
+commit cdaa6e75e9c1ab918bb66ac33a5f92b239894d0f
+Author: sue <earl.sullivanlester@utas.edu.au>
+Date:   Thu Sep 5 13:30:39 2019 +1000
+
+    not sure whats happening
+
+commit d37736906840da2c173421b6b062a38532cca8db
+Author: sue <earl.sullivanlester@utas.edu.au>
+Date:   Thu Sep 5 13:27:59 2019 +1000
+
+    Test run: start keeping track of the file
+
+git diff
+
+diff --git a/misc_git_notes.txt b/misc_git_notes.txt
+index 1eea564..faf561e 100644
+--- a/misc_git_notes.txt
++++ b/misc_git_notes.txt
+@@ -47,5 +47,62 @@ git commit -m "Test run: start keeping track of the file"
+  1 file changed, 21 insertions(+)
+  create mode 100644 misc_git_notes.txt
+
+- git add misc_notes_tw_comparison
+- git add misc_git_notes
++git add misc_notes_tw_comparison
++git add misc_git_notes
++
++git status
++On branch master
++Changes to be committed:
++  (use "git reset HEAD <file>..." to unstage)
++
++       modified:   misc_git_notes.txt
++       new file:   misc_notes_tw_comparison
++
++Changes not staged for commit:
++  (use "git add <file>..." to update what will be committed)
+:
